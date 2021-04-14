@@ -1,0 +1,41 @@
+.boletos
+    padding: $separacion 0
+    
+    h3
+        text-align: center
+        color: $blanco
+
+    .contenedor-boletos
+        margin-top: 2.5rem
+        @include grid(2, $separacion)
+
+    .plan
+        p
+            color: $blanco
+            font-size: 2rem
+            text-align: center
+
+
+.pase
+    width: 100%
+    border-spacing: 0
+    thead
+        background-color: $rosa
+        th
+            padding: $separacion / 4
+            border-radius: 20px 20px 0 0
+            font-weight: $delgada
+            font-size: 2rem
+            color: white
+    tbody
+        background-color: $blanco
+        td
+            padding: $separacion / 4
+            border-bottom: 1px solid #e1e1e1
+    tfoot
+        td
+            background-color: $morado
+            padding: $separacion / 4
+            border-radius: 0 0 20px 20px
+            text-align: center
+            color: $blanco

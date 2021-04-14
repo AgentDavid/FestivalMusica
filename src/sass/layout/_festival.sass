@@ -1,0 +1,32 @@
+.sobre-festival
+    padding: $separacion 0
+    
+    img
+        border-radius: 20px
+        filter: none
+        transition: all 0.6s ease
+
+        &:hover
+            filter: grayscale(1)
+
+    @include tablet
+        @include grid(2, $separacion)
+
+.contenido-festival
+    padding: $separacion
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    @include tablet
+        padding: 0
+
+    h2
+        font-size: 3rem
+
+    .fecha
+        color: $rosa
+        font-weight: $bold
+
+    .texto
+        line-height: 1.5
